@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B91378432A89032C004853C5 /* BiometricKYS.h in Headers */ = {isa = PBXBuildFile; fileRef = B91378422A89032C004853C5 /* BiometricKYS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B913784E2A89033E004853C5 /* BiometricKYSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B913784B2A89033E004853C5 /* BiometricKYSViewController.swift */; };
-		B91378512A890362004853C5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B91378502A890362004853C5 /* Alamofire */; };
 		B91378542A89039C004853C5 /* BiometricConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91378532A89039C004853C5 /* BiometricConstants.swift */; };
 		B91378562A8903A1004853C5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91378552A8903A1004853C5 /* NetworkManager.swift */; };
 		B9CC01042A8D6CB9008865B8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC01032A8D6CB9008865B8 /* UIView.swift */; };
@@ -29,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91378512A890362004853C5 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +91,6 @@
 			);
 			name = BiometricKYS;
 			packageProductDependencies = (
-				B91378502A890362004853C5 /* Alamofire */,
 			);
 			productName = BiometricKYS;
 			productReference = B913783F2A89032C004853C5 /* BiometricKYS.framework */;
@@ -124,7 +121,6 @@
 			);
 			mainGroup = B91378352A89032C004853C5;
 			packageReferences = (
-				B913784F2A890362004853C5 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = B91378402A89032C004853C5 /* Products */;
 			projectDirPath = "";
@@ -296,7 +292,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +331,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,25 +375,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B913784F2A890362004853C5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B91378502A890362004853C5 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B913784F2A890362004853C5 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B91378362A89032C004853C5 /* Project object */;
 }
