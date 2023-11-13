@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "kys-ios-v2.0"
+  spec.name         = "BiometricKYS"
   spec.version      = "1.0.0"
   spec.summary      = "KYS IOS v2.0 By Tanir"
   spec.homepage     = "https://github.com/biometrickz/kyc-ios-v2.0"
